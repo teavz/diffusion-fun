@@ -6,14 +6,12 @@ This repo contains:
 - A Jupyter notebook (`extremediffusionfun.ipynb`) that generates images.
 - A minimal, no-build React gallery (`frontend/react/index.html`) that displays results from `notebook_outputs/manifest.json/images`.
 
-If you already have images in `notebook_outputs/manifest.json/images`, you can skip straight to “View the Gallery”.
-
 ## Quick Start
 
-1) Install dependencies (only needed to run the notebook)
+1) Install dependencies 
 - `pip install -U pip jupyter python-dotenv huggingface_hub`
 
-2) Configure your Hugging Face token (required for gated models/datasets)
+2) Configure your Hugging Face token
 - Copy `.env.example` to `.env` and paste your token:
   - `cp .env.example .env`
   - Edit `.env` and set `HUGGINGFACE_HUB_TOKEN=hf_...`
